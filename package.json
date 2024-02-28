@@ -1,0 +1,16 @@
+{
+  "name": "eje03_facturacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "facturapi": "^3.5.0",
+    "nodemon": "^3.1.0"
+  }
+}
