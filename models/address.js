@@ -1,4 +1,5 @@
-module.exports = class adress{
+//modelo para representar el domicilio
+module.exports = class Adress{
     constructor(zip, city, municipality, state, country){
         this.zip = zip;
         this.city = city;
