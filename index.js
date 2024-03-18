@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const customerRouter = require("./routes/customerRoutes");
 
 const app = express();
-app.use(bodyParser.json);
+app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
   res.send({ Message: `Server running on ${PORT}`});
