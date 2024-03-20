@@ -18,7 +18,10 @@ app.get('/', (req, res) => {
 
 app.use("/customer", customerRouter);
 app.use("/product", productRouter);
+<<<<<<< HEAD
 app.use("/bill", billRouter);
+=======
+>>>>>>> b878092cb1c045c5857343a0d316805e86ef565c
 
 app.listen(PORT, () => {
   console.log(`Running on ${PORT}`);
