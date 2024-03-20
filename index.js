@@ -5,6 +5,7 @@ const CONFIG = require("./config");
 // Routers de la API
 const customerRouter = require("./routes/customerRoutes");
 const productRouter = require("./routes/productsRoutes");
+const billRouter = require("./routes/billRoutes");
 
 const app = express();
 const PORT = CONFIG.PORT;
@@ -17,6 +18,7 @@ app.get('/', (req, res) => {
 
 app.use("/customer", customerRouter);
 app.use("/product", productRouter);
+app.use("/bill", billRouter);
 
 app.listen(PORT, () => {
   console.log(`Running on ${PORT}`);
